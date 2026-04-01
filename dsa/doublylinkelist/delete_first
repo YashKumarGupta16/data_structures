@@ -1,0 +1,29 @@
+// head=head->next;
+//free(head->prev);
+//head->prev=null;
+
+// delete last
+//temp=head;
+//      while(temp->next!=null)
+//     {
+//         temp=temp->next;
+//     }
+//    struct node*  temp2=temp->prev;
+//    temp2-> next = null;
+//    free(temp); 
+
+
+// delete inntermediate node
+// temp=head;
+// for(int i=1;i<position;i++)
+// {
+//     temp=temp->next;
+// }
+// temp2=temp->prev;
+// temp3=temp->next;
+// temp2->next=temp3;
+// temp3->prev=temp2;
+// free(temp);
+// temp=null;
+
+
